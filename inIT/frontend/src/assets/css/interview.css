@@ -1,0 +1,473 @@
+/* two containers */
+
+.two-sections {
+  padding-left:48px;
+  width: 100%;
+  height: 100% !important;
+}
+
+.section {
+  height: 100% !important;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 50px;
+}
+
+.section .el-scrollbar__wrap .el-scrollbar__view {
+  padding-right: 15px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Interview Video Settings --------------------------- */
+.videoSettings {
+  width: 100%;
+}
+
+.videoSettings .test-video {
+  margin: 0 auto;
+  padding-bottom: 30px;
+  aspect-ratio: 16 / 9;
+  text-align: center;
+  position: relative;
+}
+
+.videoSettings .guide img {
+  position: absolute;
+  left: calc(50% - 200px);
+  width: 400px;
+}
+
+.videoSettings {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.videoSettings .el-row {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.videoSettings .el-row span {
+  margin-right: 10px;
+  font-weight: 500;
+  color: #2c2cff;
+}
+
+.sub-checkbox {
+  background-color: #eef;
+}
+
+.qListSettings .pickWarning {
+  margin-top: 20px;
+}
+
+.qListSettings .el-input-number {
+  width: 70px !important;
+  margin-left: 20px;
+}
+
+.qListSettings .el-input-number .el-input__wrapper {
+  padding: 5px 0;
+}
+
+.qListSettings .el-input-number .el-input-number__decrease,
+.qListSettings .el-input-number .el-input-number__increase {
+  border: none !important;
+  background-color: #fff !important;
+  width: 10%;
+}
+
+.qListSettings .el-input__wrapper {
+  box-shadow: none !important;
+  background-color: #fff !important;
+}
+
+.qListSettings .qStat {
+  margin-top: 15%;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.qListSettings .qStat span {
+  color: #000;
+  font-weight: 500;
+}
+
+/* Interview QList Settings */
+.listSection .el-scrollbar__wrap .el-scrollbar__view {
+  margin: 0 auto;
+  padding: 0 10%;
+  display: block;
+}
+
+.qListSettings {
+  position: relative;
+}
+
+.qListSettings .qListTitle {
+  margin-bottom: 80px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+.qListSettings .listChoice {
+  margin: 40px 15px 10px 0 !important;
+  text-align: right;
+  display: inline-block;
+  height: 37px;
+  line-height: 37px;
+}
+
+.qListSettings .el-checkbox-group {
+  text-align: left;
+}
+
+.qListSettings .listChoice .el-checkbox__label {
+  font-size: 1.2em;
+}
+
+.qListSettings .el-select {
+  width: 80%;
+}
+
+.qListSettings .listChoice .cs-checkbox {
+  font-size: 1.1rem;
+}
+
+.listSection .enter-box {
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  left: calc(50% - 100px);
+  bottom: 50px;
+}
+
+.listSection .enter-box .enter-btn {
+  width: 200px;
+  height: 50px;
+  font-size: 1.3rem;
+  border-radius: 20px;
+}
+
+
+/* Interview Room */
+.interview .el-row {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.interview .question-box {
+  margin-bottom: 5vh;
+  width: 60%;
+  height: 60px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 60px;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #2c2cff;
+}
+
+.interview .interviewing-video {
+  margin-bottom: 3vh;
+  width: 75%;
+  height: 50vh;
+  background-color: #fba;
+  border-radius: 30px;
+  position: relative;
+}
+
+.interview .interviewing-video .stopwatch {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  width: 100px;
+  height: 45px;
+  line-height: 45px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 15px;
+}
+
+.interview .btn-box .next-btn {
+  width: 200px;
+  height: 50px;
+  font-size: 1.5em;
+  color: #2c2cff;
+  border-radius: 15px;
+  border: 1px solid #2c2cff;
+}
+
+.interview .btn-box .exit-btn {
+  width: 120px;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 1.3em;
+  background-color: #ddd;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.exit-dialog {
+  padding: 20px;
+  height: 50vh !important;
+}
+
+.exit-dialog .el-dialog__body {
+  height: calc(100% - 90px) !important;
+}
+
+.exit-dialog .dialog-row {
+  height: 100%;
+  align-content: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+
+.exit-dialog .content {
+  margin-top: 20px;
+  height: 20%;
+  line-height: 40px;
+}
+
+.exit-dialog .btn-box {
+  margin: 30px 0;
+}
+
+.exit-dialog .btn-box .now-btn {
+  width: 200px;
+  height: 50px;
+  background-color: #2c2cff;
+  font-size: 1.3rem;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.exit-dialog .btn-box .next-btn {
+  width: 200px;
+  height: 50px;
+  background-color: #fff;
+  font-size: 1.5em;
+  color: #999;
+  border-radius: 15px;
+  border: 1px solid #999;
+}
+
+
+/* InterviewGeneralReview */
+.interview-general .el-scrollbar__view {
+  height: 100%;
+}
+
+.interview-info {
+  height: 60px;
+  align-items: baseline;
+}
+
+.interview-info .interview-title .el-input__wrapper {
+  height: 40px;
+  padding: 0 11px;
+  border: none;
+  box-shadow: 0 0 0 0 ;
+}
+
+.interview-general .interview-info .interview-title-lh {
+  height: 50px;
+  line-height: 50px;
+}
+
+.interview-info .interview-info .title-box {
+  height: 40px;
+}
+
+.interview-info .interview-title .divider-line {
+  margin: 0;
+}
+
+.interview-info .interview-title .fixed {
+  padding-top: 10px;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.interview-save {
+  text-align: right;
+}
+
+.interview-save .save-btn {
+  width: 80px;
+  height: 35px;
+  background-color: #2c2cff;
+  border: 0px;
+  border-radius: 15px;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #fff;
+}
+
+/* inner */
+.review-inner {
+  height: calc(100% - 60px);  
+}
+
+/* left section */
+.review-video {
+  padding-right: 5%;
+  border-right: 1px solid #ccc;
+  text-align: left;
+}
+
+.review-video .left-section {
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5%;
+  height: 100%;
+}
+
+.review-video .video-question {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
+}
+
+.review-video .video-question .q-num {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.video-dialog .pagination-box .el-pagination {
+  justify-content: center;
+  height: 50%;
+}
+
+.review-video .total-q {
+  margin-bottom: 30px;
+}
+
+.review-video .comment-title {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+.fixed-comment {
+  margin: 10px 10px 0 10px;
+  width: 100%;
+  line-height: 25px;
+  color: #555;
+  font-size: 1.1rem;
+}
+
+.comment-textarea {
+  margin: 10px 0;
+  height: 80px;
+}
+
+.interview-general .edit-btn {
+  cursor: pointer;
+}
+
+/* .left-section .expired-row {
+  height: 70%;
+} */
+
+.expired-row .expired-title {
+  margin-bottom: 20px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.expired-row .expired-video {
+  line-height: 50px;
+  height: 50px !important;
+}
+
+.expired-row .expired-questions {
+  height: calc(100% - 50px);
+}
+
+.expired-row .expired-questions .question-list {
+  /* list-style: none; */
+  margin: 0;
+}
+
+.expired-questions .question-list .a-question {
+  margin-bottom: 5px;
+  font-size: 1rem;
+  color: #555;
+}
+
+
+/* total question modal */
+.total-q .total-modal-item {
+  font-size: 1.3rem;
+}
+
+/* right section */
+.review-right .checklist-title {
+  height: 40px;
+  line-height: 40px;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.review-right .category {
+  margin-top: 20px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.interview-general .review-right .checklist {
+  margin-bottom: 5px;
+  color: #666;
+}
+
+
+/* InterviewCsReview */
+.interview-cs .el-scrollbar__view {
+  height: 70%;
+}
+
+.interview-cs .review-right {
+  height: 100%;
+}
+
+.rate {
+  padding-left: 10px;
+}
+
+.rate .correct .el-radio-button__inner {
+  color: rgb(73, 182, 40);
+}
+
+.rate .not-bad .el-radio-button__inner {
+  color: gold;
+  font-weight: 800;
+}
+
+.rate .wrong .el-radio-button__inner {
+  color: tomato;
+}
+
+.interview-cs .checklist {
+  color: #666;
+}

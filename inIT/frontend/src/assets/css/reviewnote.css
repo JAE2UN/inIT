@@ -1,0 +1,26 @@
+.reviewNote-title{
+    text-align: left;
+  font-size: 2em;
+  font-weight: 600;
+  margin: 10px
+}
+
+.reviewNote-content{
+    margin-block: 50px;
+    margin-inline: 30px;
+}
+
+.reviewNote-savebtn{
+    position: relative;
+    margin-top: 50px;
+}
+
+.reviewNote-isEmpty{
+    margin-top: 30px;
+    font-weight: 700; font-size: 1.2rem;
+}
+
+.reviewNote-isEmpty-desc{
+    margin-top: 150px;
+    font-weight: 700; font-size: 1.8rem; color: mediumblue
+}

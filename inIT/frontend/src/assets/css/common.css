@@ -1,0 +1,159 @@
+/* 전체 레이아웃 */
+* {
+  font-family: "Spoqa Han Sans Neo", "sans-serif";
+}
+
+html,
+body {
+  height: 100vh;
+  background-color: #dde6f4;
+}
+
+.common-layout {
+  height: 100vh;
+}
+
+.entire-container {
+  height: calc(100vh - 150px);
+}
+
+.container-box {
+  height: 100%;
+  border-radius: 30px;
+}
+
+.header-logo {
+  padding-left: 30px;
+  height: 50%;
+  margin-top: 25px;
+}
+
+/* 사이드 메뉴 */
+
+.side-bar {
+  width: 220px;
+  /* background-color: #2c2cff; */
+  background: linear-gradient(rgb(44, 44, 255), rgb(95, 132, 233));
+  position: relative;
+}
+
+.side-bar .el-menu {
+  border: none;
+}
+
+.side-bar .el-menu-item:hover {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.side-bar .menu-profile {
+  width: 180px;
+  margin: 0 auto;
+  padding-top: 40px;
+  color: #fff;
+  position: relative;
+}
+
+.side-bar .is-active {
+  font-weight: 500;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.side-bar .menu-community {
+  font-weight: 400;
+}
+
+.side-bar .menu-profile .menu-profile-info {
+  margin-top: 15px;
+  font-size: 1.2rem;
+}
+
+.side-bar .menu-profile .menu-profile-name {
+  width: 180px;
+  text-align: center;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.side-bar .menu-profile .menu-profile-rank {
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.side-bar .side-menu {
+  margin-top: 80px;
+}
+
+.side-bar .el-menu {
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.side-bar .el-sub-menu__title:hover {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.side-bar .side-menu .menu-item {
+  height: 40px;
+}
+
+.side-bar .side-menu .menu-item .el-sub-menu__title {
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.0) !important;
+}
+
+.side-bar .side-menu .menu-title {
+  font-size: 1rem;
+}
+
+.side-bar .side-menu .menu-sub-title {
+  height: 30px;
+  font-size: 0.9rem;
+}
+
+.side-bar .side-menu .el-menu-item-group__title {
+  padding: 0;
+}
+
+.side-bar .side-bar-enter {
+  position: absolute;
+  left: 20px;
+  bottom: 30px;
+}
+
+.side-bar .side-bar-enter .enter-btn {
+  width: 180px;
+  height: 50px;
+  border-radius: 15px;
+  font-size: 1.4rem;
+  color: #444;
+  font-weight: 600;
+}
+
+
+/* 본문 */
+
+.common-layout .el-main {
+  padding: 0;
+}
+
+.main-container {
+  height: 100%;
+  margin-left: 3rem;
+  background-color: #fff;
+}
+
+.main-container .inner {
+  height: calc(100% - 140px);
+  padding: 70px;
+}
+
+.main-container
+  > .inner
+  > .inner-scroll
+  > .el-scrollbar__wrap
+  > .el-scrollbar__view {
+  /* 내용이 스크롤바를 침범하지 않도록 */
+  padding-right: 15px;
+}

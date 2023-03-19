@@ -1,0 +1,125 @@
+ul.review-info {
+  list-style: none !important;
+  text-align: left;
+}
+
+.videoSection .el-scrollbar__view {
+  flex-direction: column !important;
+}
+
+.videoSection .enter-btn {
+  margin-top: 50px;
+  width: 140px !important;
+  height: 50px !important;
+  border-radius: 100px;
+  font-size: 1.3rem;
+}
+
+.reviewVideo {
+  width: 100%;
+}
+
+.interview-general .interview-info {
+  margin-top: 0;
+}
+
+.interview-general .pageQ {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  color: #444;
+  text-align: center;
+}
+
+.interview-general .el-pagination {
+  justify-content: center
+}
+
+.interview-room .video-box {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.interview-room .video-box .stopwatch {
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  background-color: rgb(255, 210, 192);;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.cs-report-container .interview-info {
+  margin-top: 0;
+}
+
+.vertical {
+  text-align: left;
+}
+
+
+
+.interview-check .btn-box {
+  text-align: right;
+}
+
+.interview-check .btn-box .exit-btn {
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 100px;
+  font-size: 1.1rem;
+  background-color: #fff;
+  color: #aaa;
+  border: 1px solid #aaa;
+}
+
+.cs-report-container .general-report-inner {
+  height: calc(100% - 100px) !important;
+}
+
+.expired-row {
+  /* height: 50% !important; */
+  padding: 50px 0;
+}
+
+.real-list-q .q-list-title {
+  margin-top: 100px !important;
+}
+
+/* .general-container .interview-info {
+  margin-top: 40px;
+} */
+
+.checkquest {
+  margin: 0 0 10px 10px;
+  font-size: 1.1rem;
+}
+
+.general-report-inner .pageQ {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  color: #444;
+  text-align: center;
+}
+
+.general-report-inner .el-pagination {
+  justify-content: center
+}
+
+.real-list-q,
+.real-list-content {
+  padding-top: 30px;
+}
+
+.allCmt {
+  margin: 50px 0;
+}
+
+.tag-content {
+  height: 10%;
+}

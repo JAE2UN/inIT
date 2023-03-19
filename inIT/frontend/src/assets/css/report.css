@@ -1,0 +1,878 @@
+/* ellipsis */
+.cl-ellipsis {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+
+/* report list */
+.report-list {
+  padding: 50px 70px;
+  height: calc(100% - 100px);
+  text-align: left;
+}
+
+.report-list .report-list-top {
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.report-list .report-list-title {
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.report-list .below-filter {
+  margin: 0 auto;
+}
+
+.report-list .select-box {
+  text-align: right;
+}
+
+.report-list .el-card__body{
+  padding: 10px;
+}
+
+.report-list .el-timeline-item__timestamp {
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.report-list .report-title {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.report-list .link-real {
+  margin-right: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #666;
+}
+
+
+/* report inner & two containers */
+.report-container .inner {
+  height: calc(100% - 100px);
+  padding: 50px;
+}
+
+.el-scrollbar {
+  width: 100%;
+}
+
+.report .el-scrollbar__view {
+  height: 100%;
+}
+
+.icon-m {
+  margin-right: 10px;
+}
+
+
+/* report info */
+.report-info {
+  height: 60px;
+  line-height: 60px;
+  text-align: left;
+}
+
+.report-info .report-title {
+  font-size: 2rem;
+  font-weight: 700;
+}  
+
+.report-info .report-date .date {
+  color: #888;
+  text-align: right;
+  height: 42px;
+}  
+
+
+/* General Detail */
+.general-report-inner {
+  height: calc(100% - 60px);
+}
+/* report detail (left section) */
+.report-detail {
+  padding-right: 10px;
+  border-right: 1px solid #ccc;
+  text-align: left;
+}
+
+.title {
+  height: 60px;
+  line-height: 60px;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+/* videos & questions */
+.recorded-video {
+  justify-content: center;
+}
+
+.video-container {
+  margin-bottom: 30px !important;
+  height: 30vh;
+  background-color: #aaf;
+}
+
+.recorded-video {
+  margin: 0 60px 10px 0;
+  padding-top: 20px;
+}
+/* other css are same as interview general detail */
+
+.total-modal-container .total-modal-item {
+  height: 35px;
+}
+
+.expired-row .el-scrollbar {
+  width: 100%;
+  height: 75%;
+}
+
+.review-video .el-divider {
+  margin: 0 0 20px 0 !important;
+}
+
+
+
+
+/* report rate */
+.report-rate {
+  align-content: flex-start;
+}
+
+.report-rate .report-star {
+  height: 30px;
+}
+
+.report-rate .report-star .star-title {
+  padding-right: 5px;
+  height: 30px;
+  display: inline-block;
+  color: #555;
+}
+
+.report-rate .report-star .el-rate__item {
+  height: 18px;
+}
+
+/* report comment */
+.report-detail .report-comment {
+  height: 18%;
+  align-content: flex-start;
+}
+
+.report-comment .comment-title .edit-btn {
+  padding-left: 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.report-comment .comment-content {
+  height: 60px;
+  line-height: 30px;
+  color: #555;
+  /* 2줄 & 말줄임표 */
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+}
+
+/* report tags */
+.report-detail .report-tag {
+  height: 20%;
+}
+
+.report-tag .tag-title {
+  height: 40px;
+  line-height: 40px;
+}
+
+
+/* right section */
+.right-container {
+  padding-left: 10%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+/* checklist */
+.my-report-right .checklist-title {
+  margin-bottom: 20px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.my-report-right .sub-title {
+  height: 35px;
+  line-height: 35px;
+  font-size: 1.2rem;
+}
+
+.my-report-right .check-section {
+  margin-bottom: 3%;
+}
+
+.my-report-right .checklist-stat {
+  padding-left: 15px;
+  height: 28px;
+  line-height: 28px;
+  color: #555;
+}
+
+.worst-fa {
+  padding-right: 5px;
+  color: tomato;
+}
+
+.not-bad-fa {
+  width: 16px;
+  height: 16px;
+  font-size: 0.8rem;
+  padding-right: 5px;
+  color: gold;
+}
+
+.best-fa {
+  padding-right: 5px;
+  color: rgb(73, 182, 40);
+}
+
+.my-report-right .more {
+  margin-right: 30px;
+  align-content: center;
+}
+
+.my-report-right .more .btn-container {
+  margin-bottom: 15px;
+  text-align: right;
+}
+
+.more .more-btn {
+  border-radius: 20px;
+  font-weight: 300;
+}
+
+
+/* my total question / checklist modal */
+.total-modal-container {
+  text-align: left;
+  padding: 20px;
+  height: 60vh;
+  color: #000;
+}
+
+.total-modal-container .modal-title {
+  height: 10%;
+  font-size: 1.6rem;
+}
+
+.total-modal-container .category {
+  margin-bottom: 10px;
+  padding: 20px 0 0 15px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 1.3rem;
+}
+
+.total-modal-container .total-modal-item {
+  padding-left: 20px;
+  font-size: 1rem;
+  color: #444;
+}
+
+.q-btn-container {
+  padding-top: 10px;
+}
+
+.q-btn-container .more-btn {
+  border-radius: 20px;
+  font-weight: 300;
+}
+
+/* checklist average */
+.cs-detail .more .total-check {
+  line-height: 60px;
+  text-align: right;
+}
+
+.average {
+  margin-bottom: 50px;
+  height: 40px;
+  line-height: 40px;
+  font-weight: 300;
+  font-size: 1.3rem;
+  color: #555;
+}
+
+.average .av-category {
+  color: #000;
+  font-weight: 500;
+  padding-left: 20px;
+}
+
+.average .av-num {
+  color: #000;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+
+/* checklist */
+.total-check .item {
+  padding-bottom: 5px; 
+}
+
+.total-check .item .content {
+  display: inline-block;
+  width: 70%;
+  text-align: left;
+  font-size: 1.1rem;
+  line-height: 34px;
+}
+
+.total-check .item .rate {
+  display: inline-block;
+  width: 30%;
+  text-align: right;
+}
+
+
+/* CS Detail ----------------------------------------- */
+.cs-report {
+  height: calc(100% - 70px);
+}
+
+/* cs question list (left section) */
+.cs-list-inner {
+  padding-right: 10px;
+  height: 100%;
+  border-right: 1px solid #ccc;
+  text-align: left;
+}
+
+.cs-list-inner .q-list-title {
+  font-size: 1.5rem !important;
+  line-height: 80px !important;
+}
+
+.cs-list-inner .q-list-row {
+  height: calc(100% - 60px);
+  color: #555;
+}
+.cs-list-inner .q-list .el-scrollbar {
+  width: 100%;
+}
+
+.cs-list-inner .el-scrollbar__view {
+  height: calc(100% - 40px);
+}
+
+.cs-list-inner .title {
+  height: 60px;
+  line-height: 60px;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.cs-list-inner .category {
+  margin: 10px 0;
+  padding-left: 10px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #000;
+}
+
+.cs-list-inner .cs-list-item {
+  padding-left: 25px;
+  font-size: 1rem;
+  color: #444;
+}  
+
+.cs-list-inner .cs-list-item span {
+  display: inline-block;
+  margin-bottom: 6px;
+}  
+
+.cs-list-inner .q-btn-container {
+  padding: 20px 20px 0 0;
+}
+
+.cs-modal-container .modal-title {
+  margin-bottom: 20px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #000;
+}
+
+.cs-modal-container .dialog-inner {
+  height: 55vh;
+  text-align: left;
+}
+
+.cs-modal-container .category {
+  font-size: 1.2rem;
+  margin: 30px 0 20px 0;
+}
+
+.cs-modal-container .cs-list-item {
+  padding-left: 20px;
+  font-size: 1rem;
+  color: #444;
+}
+
+.cs-modal-container .cs-list-item span {
+  display: inline-block;
+  margin-bottom: 6px;
+}
+
+.cs-modal-container .el-scrollbar__wrap {
+  padding: 0 20px;
+}
+
+.progress-row {
+  justify-content: space-between;
+  margin: 30px 40px 30px 0;
+}
+
+.progress-row .uddata {
+  height: 18px;
+  width: 100%;
+  border-radius: 100px;
+  background-color: var(--el-border-color-lighter);
+}
+
+.progress-row .progress-item {
+  margin-bottom: 10px;
+}
+
+.progress-row .progress-category {
+  font-size: 1.1rem;
+}
+
+.progress-row .category-disabled {
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+.progress-row .el-progress--line {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.more-box {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.more-box .more-btn {
+  height: 35px;
+  border-radius: 100px;
+}
+
+
+/* cs report detail (right section) */
+.cs-detail {
+  padding: 0 20px;
+  text-align: left;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cs-detail .title {
+  height: 60px;
+  line-height: 60px;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+/* star rate */
+.cs-detail .report-rate {
+  margin: 20px 0 50px 0;
+}
+
+.rate-inner {
+  height: 40px;
+  position: relative;
+}
+
+.report-rate .rate-title {
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  display: inline-block;
+  position: absolute;
+  top: 3px;
+}
+
+.report-rate .report-star {
+  height: 40px;
+  display: inline-block;
+  position: absolute;
+  left: 100px;
+}
+
+.report-rate .el-rate__item {
+  height: 32px;
+}
+
+.report-rate .el-rate .el-rate__icon {
+  font-size: 2rem !important;
+}
+
+.report-rate .el-rate__text {
+  height: 40px;
+  line-height: 55px;
+  padding-left: 15px;
+  font-size: 1.2rem;
+}
+
+.cs-detail .report-comment {
+  margin-bottom: 20px;
+  height: 20%;
+}
+
+.cs-detail .report-comment .comment-edit {
+  line-height: 60px;
+}
+
+.cs-detail .report-comment .comment-content {
+  height: calc(100% - 60px);
+}
+
+.cs-detail .report-comment .comment-content .el-textarea {
+  height: 100%;
+}
+
+.cs-detail .report-comment .comment-content .el-textarea .el-textarea__inner {
+  height: 100% !important;
+}
+
+/* simple comment */
+.report-simple-comment {
+  margin-bottom: 30px;
+}
+
+.simple-edit {
+  line-height: 60px;
+}
+
+.report-simple-comment .simple-content {
+  height: 42px;
+}
+
+.report-simple-comment .el-input__wrapper {
+  height: 40px;
+  padding: 0 11px;
+  border: none;
+  box-shadow: 0 0 0 0 ;
+}
+
+.report-simple-comment .divider-line {
+  margin: 0;
+}
+
+
+/* report tags */
+.cs-detail .report-tag .tag-title {
+  margin-bottom: 10px;
+  height: 40px;
+  line-height: 40px;
+}
+
+
+/* real detail */
+.report-info-real {
+  height: 80px;
+  line-height: 80px;
+  text-align: left;
+}
+
+.report-info-real .report-title {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 80px;
+}  
+
+.report-info-real .date {
+  height: 80px;
+  line-height: 100px;
+  text-align: right;
+}
+.report-info-real .button-box {
+  text-align: right;
+}
+
+.report-info-real .button-box .to-board-btn {
+  height: 36px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 18px;
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.report-info-real .button-box .save-btn {
+  height: 36px;
+  background-color: #2c2cff;
+  border: 0px;
+  border-radius: 18px;
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.real-report-inner {
+  height: calc(100% - 100px);
+}
+
+.interview-info {
+  /* margin-bottom: 10px; */
+  margin: 40px 0;
+  height: 60px;
+  align-items: center;
+}
+
+.interview-info .back-btn {
+  height: 36px;
+  border-radius: 18px;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #aaa;
+}
+
+/* general left section */
+.left-container {
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10%;
+  height: 100%;
+}
+
+.report-info-real .el-input__wrapper {
+  height: 40px;
+  padding: 0 11px;
+  border: none;
+  box-shadow: 0 0 0 0 ;
+}
+
+.report-info-real .interview-title-lh {
+  height: 50px;
+  line-height: 50px;
+}
+
+.report-info-real .report-title .divider-line {
+  margin: 0;
+}
+
+.report-info-real .report-date {
+  color: #888;
+  text-align: right;
+  height: 42px;
+  line-height: 50px;
+}
+
+.real-list-q .date-pick {
+  margin-bottom: 50px;
+}
+
+.real-list-q {
+  padding-right: 5%;
+  border-right: 1px solid #ccc;
+}
+
+.real-list-q .real-container {
+  padding-left: 20px;
+  height: calc(100% - 60px);
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.real-list-q .interview-info {
+  line-height: 32px;
+  font-size: 1.1rem;
+}
+
+.real-list-q .interview-info .el-col {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.real-list-q .q-list-title {
+  margin: 30px 0 10px 0;
+  height: 50px !important;
+  line-height: 50px !important;
+}
+
+.real-list-q .notice {
+  padding-left: 20px;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.real-list-q .category {
+  margin: 15px 0 5px 5px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #000;
+}
+
+.real-list-q .real-q {
+  margin: 0 0 10px 10px;
+  width:95%;
+  align-items: center
+}
+
+.real-q .list-arrow {
+  margin-right: 10px;
+}
+
+/* real detail (right section) */
+.real-list-content.right-container {
+  padding-left: 5%;
+}
+
+/* star rate */
+.real-list-content .real-rate {
+  margin-bottom: 30px;
+}
+.real-list-content .real-rate .report-star {
+  height: 40px;
+}
+
+.real-list-content .real-rate .report-star .star-title {
+  padding-right: 5px;
+  height: 40px;
+  display: inline-block;
+  color: #555;
+}
+
+.real-list-content .real-rate .el-rate__item {
+  height: 32px;
+}
+.real-list-content .real-rate .el-rate .el-rate__icon {
+  font-size: 2rem !important;
+}
+.real-list-content .real-rate .el-rate__text {
+  padding-left: 15px;
+  font-size: 1.1rem;
+}
+
+/* memo */
+.real-list-content .real-memo {
+  height: 25%;
+  margin-bottom: 20px;
+}
+
+.real-list-content .real-memo .memo-textarea {
+  height: calc(100% - 60px);
+}
+
+.real-list-content .real-memo .el-textarea {
+  height: 100%;
+}
+
+.real-list-content .real-memo .el-textarea .el-textarea__inner {
+  height: 100% !important;
+}
+
+/* tags */
+.el-tag {
+  height: 35px !important;
+  color: #000 !important;
+  font-size: 1rem !important;
+  border-radius: 15px !important;
+}
+
+.button-new-tag {
+  height: 35px !important;
+  color: #888 !important;
+  font-size: 1rem !important;
+  font-weight: 300 !important;
+  border-radius: 15px !important;
+}
+
+/* real report total question list modal */
+.real-report-inner .el-dialog {
+  height: 70vh !important;
+}
+.real-report-inner .el-dialog__header {
+  padding: 20px !important;
+}
+
+.real-report-inner .el-dialog__body {
+  padding: 20px;
+  height: calc(100% - 80px);
+}
+
+.real-modal-container .el-form-item__content {
+  flex-wrap: nowrap;
+}  
+
+.real-modal-container .el-scrollbar__wrap {
+  padding: 0 20px;
+}  
+
+
+/* real report edit */
+.interview-info-input {
+  margin: 40px 0;
+  width: 100%;
+}
+
+.interview-info-input .el-row {
+  margin-bottom: 10px;
+}
+
+.report-info-real .el-input {
+  border-bottom: 1px solid #ccc;
+}
+
+.el-date-editor.el-input,
+.el-date-editor.el-input__wrapper {
+  width: 100% !important;
+}
+
+.real-modal-container .el-form-item {
+  width: 100%;
+}
+
+.real-modal-container .el-form-item__content {
+  width: 100%;
+  flex-direction: column;
+}
+
+.real-modal-container .el-form-item__content .el-row {
+  width: 100%;
+}

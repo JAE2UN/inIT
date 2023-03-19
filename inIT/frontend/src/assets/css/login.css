@@ -1,0 +1,112 @@
+/* login */
+.login-row {
+  height: 100vh;
+}
+
+.login-container {
+  height: 90vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container .login-logo {
+  margin-bottom: 30px;
+}
+
+.login-container .login-box {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.login-container .login-box .el-input {
+  margin-bottom: 5px;
+}
+
+.login-container .login-box .el-input__wrapper {
+  height: 50px;
+  padding: 0 11px;
+  border: none;
+  /* input 감싸는 흰 박스 css */
+  border-radius: 15px;
+  box-shadow: 0 0 0 0 ;
+}
+
+.login-container .el-button {
+  width: 100%;
+  height: 50px;
+  font-size: 1.1rem;
+}
+
+.login-container .login-btn {
+  border-radius: 15px;
+  margin-top: 1rem;
+}
+
+.login-container .signup-btn {
+  margin-top: 10px;
+  color: #888;
+  border: 1px solid #bbb;
+  border-radius: 15px;
+}
+
+.login-container .el-button + .el-button {
+  margin-left: 0;
+}
+
+
+/* Signup */
+.signup-container {
+  height: 90vh;
+  align-content: space-around;
+}
+
+.birth-box {
+  height: auto;
+  align-content: space-around;
+}
+
+.signup-container .el-button {
+  width: 100%;
+  height: 50px;
+}
+
+.signup-logo {
+  margin-bottom: 0px;
+}
+
+.signup-box {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.signup-box .el-input {
+  margin-bottom: 5px;
+}
+
+.signup-box .el-input__wrapper {
+  height: 50px;
+  padding: 0 11px;
+  border: none;
+  /* input 감싸는 흰 박스 css */
+  border-radius: 15px;
+  box-shadow: 0 0 0 0;
+}
+
+.signup-box .el-input-group__append {
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: 0 0 0 0;
+}
+
+.signup-btn {
+  border-radius: 15px;
+  margin-top: 1rem;
+  margin-bottom: 5px;
+}
+
+.signup-btn {
+  color: #888;
+  border: 1px solid #bbb;
+  border-radius: 15px;
+}
+

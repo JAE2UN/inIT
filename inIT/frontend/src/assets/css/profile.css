@@ -1,0 +1,263 @@
+/* two containers */
+
+.profile-two-sections {
+  padding-left: 48px;
+  width: 100%;
+  height: 100% !important;
+}
+
+.profile-section {
+  height: 100% !important;
+  background-color: #ffffff;
+  border-radius: 30px;
+  /* padding: 50px; */
+}
+
+.profile-two-sections .section .el-scrollbar__wrap .el-scrollbar__view {
+  /* padding-right: 15px; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* UserDetail CSS */
+
+.inner-userdetail {
+  height: 100%;
+}
+
+.userdetail-header {
+  margin-inline: 40px;
+  margin-block: 80px;
+  justify-content: center;
+}
+
+.userdetail-header-img {
+  position: relative;
+}
+
+.img-editbtn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(150%, 200%);
+}
+
+.img-editbtn-lvup{
+  position: relative;
+  margin-top: 20px;
+}
+
+.userdetail-header-userInfo {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.userdetail-editbtn {
+  margin-left: 20px;
+}
+
+.userdetail-header-name {
+  margin-top: 20px;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.userdetail-header-progress {
+  margin-top: 10px;
+  margin-inline: 20%;
+  font-size: 1.5rem;
+}
+
+.temperature-bar {
+  margin-top: 20px;
+}
+
+.userdetail-header-name .input-usernickname {
+  width: 300px;
+  height: 40px;
+  font-size: 1.5rem;
+  line-height: 40px;
+}
+
+.input-userdetail {
+  width: 45%;
+}
+
+.userdetail-header-img {
+  height: 150px !important;
+  vertical-align: middle;
+}
+
+.userdetail-main-cate {
+  text-align: left;
+  font-size: 1.5rem;
+  color: #aaaaaa;
+  /* margin-left: 10%; */
+}
+
+.userdetail-main-data {
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.userdetail-grade {
+  margin-inline: 60px;
+  margin-block: 40px;
+  line-height: 40px;
+}
+
+.userdetail-introduce {
+  /* position: relative; */
+  margin-inline: 60px;
+  margin-block: 100px;
+  line-height: 40px;
+}
+
+.userdetail-introduce-title {
+  font-size: 1.5rem;
+  text-align: left;
+  color: #aaaaaa;
+}
+
+.userdetail-introduce-text {
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.el-textarea__inner {
+  display: flex;
+}
+
+/* footer absolute 처리 */
+/* .userdetail-footer {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  justify-content: flex-end;
+  align-items: center;
+} */
+
+/* footer relative 처리*/
+.userdetail-footer {
+  position: relative;
+  margin: 40px 40px 0px 0px;
+  justify-content: flex-end;
+  align-items: center;
+}
+.userdetail-footer-btn {
+  font-size: 2rem;
+  border: 0;
+  padding: 0;
+}
+
+.userdetail-footer-btn-text {
+  font-size: 1rem;
+}
+
+/* MyQList CSS */
+.inner-myqlist {
+  height: 100%;
+}
+
+.myqlist-header {
+  margin: 40px;
+}
+
+.myqlist-header-title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  height: 60px;
+  line-height: 60px;
+}
+
+.myqlist-header-timestamp {
+  font-size: 0.5rem;
+  margin-top: 30px;
+  margin-left: auto;
+  align-items: center;
+}
+
+.myqlist-main {
+  margin-block: 40px;
+  margin-inline: 10%;
+  /* padding-block: 40px; */
+  row-gap: 30px;
+}
+
+.myqlist-main-cate {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  color: #aaaaaa;
+  justify-content: flex-start;
+}
+
+.myqlist-main-cate .el-collapse-item__header {
+  font-size: 1.5rem;
+}
+
+.myqlist-main-cate .el-collapse-item__content {
+  margin-top: 10px;
+}
+
+.myqlist-main-item {
+  justify-content: left;
+  font-size: 1rem;
+  text-indent: 46px;
+}
+
+.myqlist-main-item .el-input__wrapper {
+  width: 10%;
+}
+
+.myqlist-main-item-high {
+  font-weight: 600;
+}
+.myqlist-main-item-mid {
+  font-weight: 500;
+}
+
+.myqlist-main-item-low {
+  font-weight: 400;
+}
+
+.empty-row {
+  height: 25px;
+  justify-content: right;
+}
+
+/* footer absolute 처리 */
+/* .myqlist-footer {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  justify-content: flex-end;
+  align-items: center;
+} */
+
+/* footer relative 처리 */
+.myqlist-footer {
+  position: relative;
+  margin: 40px 40px 0px 0px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.myqlist-footer-btn {
+  font-size: 2rem;
+  border: 0;
+  padding: 0;
+}
+
+.myqlist-footer-btn-text {
+  font-size: 1rem;
+}
+
+/* EditProfileDialog */
+.edit-profile-form-item .el-form-item__label{
+  justify-content: center;
+}

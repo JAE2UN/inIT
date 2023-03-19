@@ -1,0 +1,137 @@
+/* dashboard */
+
+
+.dashboard{
+  justify-content: center;
+}
+
+.inner .dashboard-row{
+  /* border: solid red; */
+}
+
+.inner .dashboard-col{
+  width: 100%;
+  height: 100%;
+  margin-block: 10px;
+  padding: 15px;
+  border-radius: 15px;
+  /* background-color: #dde6f4; */
+  border: 1px solid #dde6f4;
+  justify-content : center;
+}
+
+
+
+.chart-desc{
+  width: 100%;
+  height: 25vh;
+  /* margin-top: 30px; */
+  /* border: solid yellow; */
+}
+
+/* total-desc */
+
+.total-title {
+  text-align: left;
+  font-size: 2em;
+  font-weight: 600;
+  margin: 10px
+}
+
+.total-content-true, .total-content-false{
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.total-content-true .tag-list{
+  line-height: 150%;
+}
+
+.total-content-true{
+  font-weight: 600; font-size: 1.5rem;
+}
+ 
+.total-content-false{
+  font-weight: 700; font-size: 1.8rem; color: mediumblue
+}
+/* feedback-desc */
+
+.feedback-log, .total-practice{
+  /* border: solid blue; */
+}
+
+.feedback-desc{
+  width: 100%;
+  height: 30vh;
+  margin: auto;
+  justify-content: right;
+  align-items: center;
+  /* border: solid brown; */
+}
+
+.feedback-desc-title {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  margin-inline: 20%;
+  justify-content: right;
+  align-items: center;
+  /* border: solid red; */
+}
+
+.feedback-desc-sub{
+  font-size: 1.1rem;
+  margin-top: 30px;
+  margin-right: 20%;
+  justify-content: right;
+}
+
+.feedback-desc-deadline{
+  color: #aaaaaa;
+  font-size: 0.8rem;
+  margin-top: 10px;
+  margin-right: 20%;
+  justify-content: right;
+}
+
+/* chart-desc */
+
+.chart-title{
+  text-align: left;
+  font-size: 2em;
+  font-weight: 600;
+  margin: 10px
+}
+
+.chart-content{
+  margin-left: 30px;
+  display: flex;
+}
+
+.chart-desc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.chart-desc-bad, .chart-desc-good{
+  margin-block: 25px;
+}
+
+.chart-desc-title{
+  font-weight: bold;
+  font-size: 1.2rem;
+  justify-content: center;
+}
+
+.chart-desc-text{
+  margin-top: 10px;
+  font-size: 1.5rem;
+  justify-content: center;
+}
+
+/* pie-chart */

@@ -1,0 +1,44 @@
+:root {
+  --color-white: #fbfbfb;
+  --color-black: #191919;
+  --color-main: #2c2cff;
+  --color-sub: #1528a1;
+  --color-bg: #dde6f4;
+
+  --color-black-w10: #303030;
+  --color-black-w20: #474747;
+  --color-black-w30: #5e5e5e;
+  --color-black-w40: #757575;
+  --color-black-w50: #8c8c8c;
+
+  --color-main-w10: #4242ff;
+  --color-main-w20: #5656ff;
+  --color-main-w30: #6c6cff;
+  --color-main-w40: #8080ff;
+  --color-main-w50: #9696ff;
+
+  --color-main-b10: #2828e5;
+  --color-main-b20: #2323cc;
+  --color-main-b30: #1f1fbe;
+  --color-main-b40: #1a1a99;
+  --color-main-b50: #16167f;
+
+  --color-sub-w10: #2d3eab;
+  --color-sub-w20: #4453b4;
+  --color-sub-w30: #5c69be;
+  --color-sub-w40: #737ec7;
+  --color-sub-w50: #8a94d0;
+
+  --color-sub-b10: #132491;
+  --color-sub-b20: #112081;
+  --color-sub-b30: #0f1c71;
+  --color-sub-b40: #0d1861;
+  --color-sub-b50: #0a1450;
+
+  --color-bg-b10: #c7cfdc;
+  --color-bg-b20: #b1b8c3;
+  --color-bg-b30: #9ba1ab;
+  --color-bg-b40: #858a92;
+  --color-bg-b50: #6e737a;
+  --color-bg-b60: #585c62;
+}
